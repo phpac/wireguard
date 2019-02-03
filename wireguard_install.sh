@@ -4,7 +4,7 @@
 if [ ! -e '/etc/redhat-release' ]; then
 echo "仅支持centos7"
 exit
-if
+fi
 if  [ -n "$(grep ' 6\.' /etc/redhat-release)" ] ;then
 echo "仅支持centos7"
 exit
